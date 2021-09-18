@@ -24,7 +24,7 @@ class MathQuestion{
 }
 
 void main() {
-  List<MathQuestion> questions = [MathQuestion("10 + 5", 15.0), MathQuestion("5 * 3", 15.0)];
+  List<MathQuestion> questions = [MathQuestion("10 + 5", 15.0), MathQuestion("5 * 6", 30.0), MathQuestion("9 / 3", 30.0),  MathQuestion("5 - 3", 2.0), MathQuestion("5 % 3", 2.0)];
 
   int score = 0;
   for(MathQuestion mathQuestion in questions) {
